@@ -1,10 +1,15 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
 h1 {
     padding-top: 200px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 5px;
 }
 
 .bottom {
