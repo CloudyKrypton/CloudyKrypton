@@ -7,6 +7,10 @@ h1 {
     padding-top: 200px;
 }
 
+.bottom {
+    padding-bottom: 200px;
+}
+
 body {
     background: #d8bee6;
 }
