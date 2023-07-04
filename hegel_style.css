@@ -1,37 +1,12 @@
 h1 {
     text-align: center;
-}
-    /*padding-top: 100px;
-    padding-bottom: 50px;
-}
 
-p {
-    padding-right: 500px;
-    padding-left: 500px;
-    display: flex;
-}
-
-li {
-    margin-left: 500px;
-    margin-right: 500px;
-}
-
-h3 {
-    padding-left: 500px;
-}
-
-.heading {
-    padding-left: 470px;
 }
 
 .subheading {
-    padding-left: 500px;
     font-weight: bold;
 }
 
-.end {
-    padding-bottom: 100px;*/
-}
 
 * {
     font-family: 'Times New Roman', Times, serif;
