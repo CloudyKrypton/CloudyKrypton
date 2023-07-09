@@ -1,21 +1,34 @@
-* {
-    font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
 h1 {
-    padding-top: 200px;
-    margin-bottom: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
-    margin-top: 5px;
-}
-
-.bottom {
-    padding-bottom: 200px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background: #d8bee6;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 0;
+    text-size-adjust: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: None;
 }
