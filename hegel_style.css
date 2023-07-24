@@ -1,7 +1,3 @@
-h1 {
-    text-align: center;
-}
-
 .subheading {
     font-weight: bold;
 }
@@ -62,6 +58,25 @@ h5 {
 
 * {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.header-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 220px;
+    width: 190px;
+    border-radius: 220px;
 }
 
 body {
