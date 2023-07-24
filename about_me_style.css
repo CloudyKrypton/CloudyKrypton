@@ -29,3 +29,8 @@ body {
 h1 {
     font-size: 52px;
 }
+
+a {
+    text-decoration: None;
+    color: #0f63d1;
+}
