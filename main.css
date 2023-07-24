@@ -31,6 +31,14 @@ content {
     flex-direction: column;
 }
 
+button {
+    background-color: wheat;
+    border-radius: 3px;
+    border-color: black;
+    padding: 8px;
+    border-width: 5px;
+}
+
 a {
     text-decoration: None;
     color: #3492eb;
@@ -48,7 +56,6 @@ li {
 }
 
 .highlight {
-    background-color: white;
     color: black;
 }
 
