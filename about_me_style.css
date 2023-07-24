@@ -1,0 +1,31 @@
+.header {
+    height: 100px;
+}
+
+.text {
+    display: flex;
+    border-width: 5px;
+    border-color: black;
+    padding: 50px;
+    flex: auto;
+    text-align: left;
+    flex-direction: column;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: auto;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 52px;
+}
