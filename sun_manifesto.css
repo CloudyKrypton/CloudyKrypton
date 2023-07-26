@@ -7,12 +7,16 @@ h2 {
 }
 
 body {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background-color: #4d5487;
 }
 
 .inside {
-    border: 10px solid #fcc600;
+    border-left: 10px solid #fcc600;
+    border-right: 10px solid #fcc600;
     display: block;
     padding: 50px;
     background-color: white;
