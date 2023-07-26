@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    padding: 50px;
+    background-color: #4d5487;
+}
+
+.inside {
+    border: 10px solid #fcc600;
+    display: block;
+    padding: 50px;
+    background-color: white;
+}
+
+.divider {
+    height: 30px;
+}
+
+.divider2 {
+    height: 15px;
+}
+
+a {
+    text-decoration: None;
+    color: #2534a1;
+}
