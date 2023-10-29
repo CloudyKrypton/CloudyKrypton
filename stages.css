@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #4d5487;
+    background-image: url('nightsky.png');
+    background-size: 400px;
+}
+
+.inside {
+    display: block;
+    padding: 50px;
+    background-color: #ebeff2;
+}
+
+.container {
+    display: -webkit-flex; 
+    -webkit-flex-wrap: wrap; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divider2 {
+    height: 15px;
+}
+
+.manifesto {
+    text-decoration: None;
+    color: #2534a1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+div {
+    flex: 1; 
+}
