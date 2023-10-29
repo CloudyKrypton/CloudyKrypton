@@ -7,19 +7,19 @@ h2 {
 }
 
 body {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
     background-color: #4d5487;
+    background-image: url('nightsky.png');
+    background-size: 400px;
 }
 
 .inside {
-    border-left: 10px solid #fcc600;
-    border-right: 10px solid #fcc600;
     display: block;
     padding: 50px;
-    background-color: white;
+    background-color: #ebeff2;
 }
 
 .divider {

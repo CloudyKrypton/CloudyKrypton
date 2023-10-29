@@ -34,3 +34,12 @@ a {
     text-decoration: None;
     color: #0f63d1;
 }
+
+.home {
+    width: 100px;
+    height: 50px;
+    border: None;
+    background-image: url('home.png');
+    background-size: 100px;
+    border-radius: 8px;
+}
