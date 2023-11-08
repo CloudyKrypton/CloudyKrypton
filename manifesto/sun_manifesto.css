@@ -34,6 +34,19 @@ body {
     justify-content: center;
 }
 
+.divider {
+    height: 30px;
+}
+
+.divider2 {
+    height: 15px;
+}
+
+a {
+    text-decoration: None;
+    color: #2534a1;
+}
+
 .divider2 {
     height: 15px;
 }

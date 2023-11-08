@@ -42,4 +42,5 @@ a {
     background-image: url('home.png');
     background-size: 100px;
     border-radius: 8px;
+    cursor: pointer;
 }
