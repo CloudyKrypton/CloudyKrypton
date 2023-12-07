@@ -1,15 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .header {
     height: 150px;
     width: 100%;
     background-color: #bdd9de;
-}
-
-.header-content {
-    padding-left: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner {
-    height: 150px;
+    max-width: 340px;
+    height: auto;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+  .header-content {
+    padding-left: 10px;
+    align-items: center;
+  }
 }
 
 .header-2 {
@@ -19,35 +29,75 @@
     padding-top: 10px;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-size-adjust: auto;
+  flex-direction: column;
+  background-color: #bdd9de;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
 .text {
     display: flex;
-    border-width: 5px;
+    border-width: 1px;
+    border-style: solid;
     border-color: black;
-    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+    padding:75px;
     flex: auto;
     text-align: left;
     flex-direction: column;
     margin-left: auto; 
     margin-right: auto;
-    width: 1050px;
     overflow: hidden;
     margin: 0 auto 0 auto;
-    background-color: white;
+    background-color: #fcefd9;
+}
+
+/* Laptop */
+@media (max-width: 1500px) {
+  body {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .text {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  body {
+    margin-left: 75px;
+    margin-right: 70px;
+  }
+  .text {
+    padding: 40px;
+  }
+}
+
+/* Phone */
+@media (max-width: 500px) {
+  body {
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+  .text {
+    padding: 20px;
+  }
+  .banner {
+    max-width: 280;
+  }
 }
 
 p {
     text-align: left;
     font-size: 18px;
-    display: flex;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-size-adjust: auto;
-    flex-direction: column;
-    background-color: white;
 }
 
 * {
@@ -56,13 +106,35 @@ body {
 
 h1 {
     font-size: 52px;
-    font-family: "Calibri";
+    font-family: "Abril Fatface", "Calibri", sans-serif;
     text-align: center;
+    font-weight: 70;
+    -webkit-text-fill-color: #bdd9de;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: 2px 2px black;
+    font-style: italic;
+}
+
+.pink {
+  -webkit-text-fill-color: #fc7ec3;
+}
+
+.blue {
+  -webkit-text-fill-color: #6290c4;
+}
+
+.purple {
+  -webkit-text-fill-color: #918ad4;
+}
+
+.yellow {
+  -webkit-text-fill-color: #ffb83d;
 }
 
 a {
     text-decoration: None;
-    color: black;
+    color: #55769e;
     font-family: 'Calibri', sans-serif;
 }
 
@@ -77,7 +149,9 @@ a {
 }
 
 .content {
-    font-family: "Calribri", sans-serif;
+    font-family: "Calibri", sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 .header-links {
