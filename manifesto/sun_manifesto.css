@@ -34,6 +34,13 @@ body {
     justify-content: center;
 }
 
+.dual-image-container {
+    display: flex;
+    gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .divider {
     height: 30px;
 }
