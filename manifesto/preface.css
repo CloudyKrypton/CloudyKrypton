@@ -42,3 +42,22 @@ a {
     text-decoration: None;
     color: #2534a1;
 }
+
+/* Tablets */
+@media (max-width: 1024px) {
+    body {
+        padding: 5vw;
+        font-size: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    body {
+        padding: 5vw;
+        font-size: 20px;
+    }
+    .inside {
+        padding: 20px;
+    }
+}
