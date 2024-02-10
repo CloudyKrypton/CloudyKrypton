@@ -1,3 +1,2 @@
-# clkrnet
+Hello 🐱! I'm Janet, and I'm a computer science student at UofT.
 
-This is the GitHub repository for clkrnet.
