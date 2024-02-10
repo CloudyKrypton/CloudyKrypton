@@ -1,2 +1,3 @@
-Hello 🐱! I'm Janet, and I'm a computer science student at UofT.
+Hello! I'm Janet, and I'm a computer science student at UofT.
 
+🐱
