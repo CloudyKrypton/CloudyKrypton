@@ -32,6 +32,10 @@ body {
     background-color: #ffdb00;
 }
 
+#yes:hover {
+    cursor: pointer;
+}
+
 #no {
     position: absolute;
     top: 80vh;
@@ -42,4 +46,8 @@ body {
     border-color: black;
     border-radius: 3px;
     background-color: #ffdb00;
+}
+
+#no:hover {
+    cursor: pointer;
 }
