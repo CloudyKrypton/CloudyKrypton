@@ -87,6 +87,12 @@ function response() {
         weight.value = '';
         time.value = '';
         errors.textContent = "Weight and time must be numbers!"
+    } else if (weight_str < 1 || weight_str > 10) {
+        errors.textContent = '';
+        task.value = '';
+        weight.value = '';
+        time.value = '';
+        errors.textContent = "Weight must be between 1 and 10!"
     } else {
         errors.textContent = '';
         task.value = '';
