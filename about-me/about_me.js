@@ -77,3 +77,35 @@ dotsNav.addEventListener('click', e => {
     hideShowArrows(slides, prevButton, nextButton, targetIndex);
 
 })
+
+window.addEventListener('load', () => {
+    const container = document.getElementById('star-container');
+    
+    // Force reflow by manipulating the container's class
+    container.classList.remove('animate');
+    void container.offsetWidth; // Trigger reflow
+    container.classList.add('animate');
+
+    const { centerX, centerY } = getViewportCenter();
+    console.log('Center X:', centerX);
+    console.log('Center Y:', centerY);
+});
+
+function getViewportCenter() {
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+    
+    const centerX = viewportWidth / 2;
+    const centerY = viewportHeight / 2;
+    
+    return { centerX, centerY };
+}
+
+function setCSSVariables() {
+    const { centerX, centerY } = getViewportCenter();
+    document.documentElement.style.setProperty('--viewport-center-x', `${centerX}px`);
+    document.documentElement.style.setProperty('--viewport-center-y', `${centerY}px`);
+}
+
+window.addEventListener('load', setCSSVariables);
+window.addEventListener('resize', setCSSVariables);

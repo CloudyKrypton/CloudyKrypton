@@ -3,7 +3,7 @@
 .header {
     height: 150px;
     width: 100%;
-    background-color: #bdd9de;
+    background-color: #919ec7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,9 +36,15 @@ body {
   align-items: center;
   text-size-adjust: auto;
   flex-direction: column;
-  background-color: #bdd9de;
+  background-color: #919ec7;
   margin-left: 300px;
   margin-right: 300px;
+}
+
+.home {
+  font-weight: 500;
+  display: flex;
+  justify-content: right;
 }
 
 .text {
@@ -46,7 +52,7 @@ body {
     border-width: 1px;
     border-style: solid;
     border-color: black;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     box-shadow: 5px 10px;
     padding:75px;
     flex: auto;
@@ -106,15 +112,15 @@ p {
 }
 
 h1 {
-    font-size: 52px;
+    /* font-size: 52px; */
     font-family: "Abril Fatface", "Calibri", sans-serif;
-    text-align: center;
+    /* text-align: center; */
     font-weight: 70;
     -webkit-text-fill-color: #bdd9de;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
     text-shadow: 2px 2px black;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .pink {
@@ -139,7 +145,7 @@ a {
     font-family: 'Calibri', sans-serif;
 }
 
-.home {
+/* .home {
     width: 100px;
     height: 50px;
     border: None;
@@ -147,7 +153,7 @@ a {
     background-size: 100px;
     border-radius: 8px;
     cursor: pointer;
-}
+} */
 
 .content {
     font-family: "Calibri", sans-serif;
@@ -200,4 +206,67 @@ a {
 
 .tt:hover .ttt {
   visibility: visible;
+}
+
+.star-container {
+  height: 1vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index:100;
+  /* border-width: 2px;
+  border-color: black;
+  border-style: dashed; */
+  top: 0;
+}
+
+.star {
+  font-size: 2rem;
+  position: absolute;
+  top: -100px; /* Start position (off-screen) */
+  opacity: 0;
+  animation: drop 2s ease-out forwards;
+}
+
+.star:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.star:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.star:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.star:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.star:nth-child(5) {
+  animation-delay: 2s;
+}
+
+@keyframes drop {
+  0% {
+      top: -10px; /* Initial position (off-screen) */
+      opacity: 0;
+  }
+  50% {
+      top: 40vh; /* Move to the middle of the page */
+      opacity: 1;
+      transform: translateY(-20vh);
+  }
+  100% {
+      top: 40vh; /* Final position */
+      opacity: 1;
+      transform: translateY(-20vh);
+  }
+}
+.star-container.animate .star {
+  animation: drop 2s ease-out forwards;
 }
