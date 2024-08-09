@@ -226,8 +226,9 @@ a {
 .star {
   font-size: 2rem;
   position: absolute;
-  top: -100px; /* Start position (off-screen) */
-  opacity: 0;
+  top: -30vh; /* Start position (off-screen) */
+  left: 0vw;
+  /* opacity: 0; */
   animation: drop 2s ease-out forwards;
 }
 
@@ -253,18 +254,18 @@ a {
 
 @keyframes drop {
   0% {
-      top: -10px; /* Initial position (off-screen) */
-      opacity: 0;
+      top: -30vh; /* Initial position (off-screen) */
+      /* opacity: 0; */
   }
-  50% {
-      top: 40vh; /* Move to the middle of the page */
+  /* 50% {
+      top: -10vh;
       opacity: 1;
-      transform: translateY(-20vh);
-  }
+      transform: translateY(50%);
+  } */
   100% {
-      top: 40vh; /* Final position */
+      top: 0vh; /* Final position */
       opacity: 1;
-      transform: translateY(-20vh);
+      transform: translateY(0vh);
   }
 }
 .star-container.animate .star {
