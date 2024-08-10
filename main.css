@@ -62,7 +62,7 @@ li {
 }
 
 /* Tablets */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     h1 {
         font-size: 50px;
     }
@@ -72,17 +72,13 @@ li {
     .text {
         font-size: 25px;
     }
-    /* ul {
-        font-size: 25px;
-        gap: 12px;
-    } */
     button {
         max-width: 60vw;
     }
-}
+} */
 
 /* Mobile */
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     h1 {
         font-size: 40px;
     }
@@ -93,16 +89,14 @@ li {
         font-size: 20px;
     }
     ul {
-        /* font-size: 20px; */
         flex-direction: column;
-        /* gap: 5px; */
         padding-bottom: 5px;
     }
-}
+} */
 
 /* Galaxy Fold */
-@media (max-width: 280px) {
+/* @media (max-width: 280px) {
     h2 {
         font-size: 20px;
     }
-}
+} */
