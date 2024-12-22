@@ -3,7 +3,7 @@
 .header {
     height: 150px;
     width: 100%;
-    background-color: #919ec7;
+    /* background-color: #919ec7; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,9 @@
 
 /* Phone */
 @media (max-width: 767px) {
+  .header {
+    height: 20vw;
+  }
   .header-content {
     padding-left: 10px;
     align-items: center;
@@ -208,15 +211,19 @@ a {
   visibility: visible;
 }
 
+.sky-banner {
+  width: 100%;
+}
+
 .star-container {
-  height: 1vh;
-  width: 80vw;
+  /* height: 1vh; */
+  width: 95vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
-  z-index:100;
+  z-index:-100;
   /* border-width: 2px;
   border-color: black;
   border-style: dashed; */
@@ -224,12 +231,12 @@ a {
 }
 
 .star {
-  font-size: 2rem;
   position: absolute;
-  top: -30vh; /* Start position (off-screen) */
+  top: -300px; /* Start position (off-screen) */
   left: 0vw;
   /* opacity: 0; */
   animation: drop 2s ease-out forwards;
+  width: 100%;
 }
 
 .star:nth-child(1) {
@@ -254,20 +261,41 @@ a {
 
 @keyframes drop {
   0% {
-      top: -30vh; /* Initial position (off-screen) */
-      /* opacity: 0; */
+      top: -600px; /* Initial position (off-screen) */
   }
-  /* 50% {
-      top: -10vh;
-      opacity: 1;
-      transform: translateY(50%);
-  } */
   100% {
-      top: 0vh; /* Final position */
+      top: -150px; /* Final position */
       opacity: 1;
       transform: translateY(0vh);
   }
 }
+
 .star-container.animate .star {
   animation: drop 2s ease-out forwards;
+}
+
+@media (max-width: 1400px) {
+  @keyframes drop {
+    0% {
+        top: -300px; /* Initial position (off-screen) */
+    }
+    100% {
+        top: -100px; /* Final position */
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  @keyframes drop {
+    0% {
+        top: -300px; /* Initial position (off-screen) */
+    }
+    100% {
+        top: -20px; /* Final position */
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+  }
 }
