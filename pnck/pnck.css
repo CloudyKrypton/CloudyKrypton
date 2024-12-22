@@ -95,7 +95,7 @@ p {
     padding-top: 12px;
 }
 
-p:nth-child(2):first-letter {
+p:nth-child(3):first-letter {
     float: left;
     font-size: 100px;
     line-height: 60px;
