@@ -135,3 +135,14 @@ hr {
     border: 1px solid #000000;
     text-align: center;
 }
+
+.home {
+    font-weight: 500;
+    display: flex;
+    justify-content: right;
+  }
+
+  a {
+    text-decoration: None;
+    color: #2c642c;
+}
