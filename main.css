@@ -31,11 +31,27 @@ content {
 }
 
 button {
-    background-color: wheat;
-    border-radius: 3px;
+    border-radius: 10px;
     border-color: black;
+    border-width: 3px;
+    padding: 0px;
+}
+
+.inner-colour {
+    background-color: #646dfd;
+    padding: 3px;
+    /* border-width: 5px;
+    border-style: solid; */
+    border-radius: 7px;
+}
+
+.inner-border {
+    border-color: black;
+    background-color: wheat;
+    border-width: 3px;
+    border-style: solid;
     padding: 8px;
-    border-width: 5px;
+    border-radius: 8px;
 }
 
 a {
