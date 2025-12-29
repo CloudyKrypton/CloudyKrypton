@@ -114,6 +114,10 @@ p {
     padding-bottom: 20px;
 }
 
+.section {
+  font-size: 20px;
+}
+
 .ch-number {
     font-size: 40px;
 }
@@ -137,4 +141,9 @@ hr {
 
 a:hover {
     color:#ed1367;
+}
+
+.indent {
+  padding-left: 50px;
+  padding-right: 50px;
 }
